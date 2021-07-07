@@ -10,8 +10,9 @@ h1{
 .spoon-plate{
     color: tomato;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -31,4 +32,53 @@ section{
 }
 .top-banner{
     background-image: url(back2.jpeg);
+}
+.good-food{
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.good-recipi{
+    background-image: url(background.jpeg);
+}
+.experience-item{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:10px 10px 40px rgb(245, 95, 237);
+}
+#play-match{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,cyan);
+    border-image-slice: 1;
+}
+#match-play{
+    border-left: 7px solid;
+    border-image:linear-gradient(orange,cyan) ;
+    border-image-slice: 1;
+}
+#one-day{
+    border-left:7px solid;
+    border-image:linear-gradient(blue,cyan) ;
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+
+}
+#match-play img {
+
+    height: 250px;
+    width: 100%;
+
+}
+#play-match img{
+    height: 250px;
+    width: 100%;
+}
+#one-day img{
+    height: 250px;
+    width: 100%;
 }
